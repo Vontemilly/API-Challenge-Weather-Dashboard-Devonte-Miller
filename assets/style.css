@@ -1,0 +1,67 @@
+body {
+    font-family: 'Arial', sans-serif,;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 0.25rem;
+}
+
+header {
+    background-color: rgba(15, 27, 131, 0.945);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0.25rem; /* 4px */
+}
+
+form {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+button {
+    padding: 8px;
+    background-color: #dc650a;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+main {
+    margin-top: 20px;
+}
+
+.forecast-date {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.forecast-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.search-history-item {
+    padding: 5px;
+    margin-top: 5px;
+    background-color: #f3f3f3;
+    cursor: pointer;
+}
+
+.search-history-item:hover {
+    background-color: #ddd;
+}
